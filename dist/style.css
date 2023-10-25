@@ -1,0 +1,275 @@
+* {
+    font-family: 'Arial Narrow Bold', sans-serif !important;
+}
+
+
+.foundation {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(25, 25, 25, 0.5), rgba(25, 25, 25, 0.5)), url("assets/images/mtn/foundation/foundationNews/1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background: url("assets/images/mtn/momo/testbanner.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.consumer {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+        url("assets/images/mtn/momo/consumer/1.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.business {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+        url("assets/images/mtn/momo/biss/0.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.agent {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+        url("assets/images/mtn/momo/Desktop.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.insurance {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+        url("assets/images/mtn/momo/insurance/4.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.api {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%),
+        url("assets/images/mtn/momo/apis/1.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.sub-bnr {
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 100%), url("assets/images/mtn/momo/africa.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.f-promo {
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 100%), url("assets/images/mtn/foundation/WhatsApp-Image-.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.insu {
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), url("assets/images/mtn/momo/insurance/4.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.back {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, .8) 100%);
+}
+
+
+/* 
+
+/* ----------personal--new---------- */
+
+
+/* .card .image-box{
+    height: 200px;
+}
+.card .image-box img{
+    height: 100%;
+} */
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+.swiper {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    margin-bottom: 8rem;
+}
+
+.swiper-wrapper {
+    width: 100%;
+}
+
+.swiper-slide {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+
+
+.swiper-slide img {
+    margin: auto;
+    width: 4rem;
+    margin-bottom: 5px;
+}
+
+.swiper-slide h1{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.swiper-slide p{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.swiper-wrapper{
+margin-bottom: 125px;
+}
+
+
+
+/* --------------------second slide-------------------------- */
+
+/* .swiper {
+    position: relative;
+    margin: auto;
+    width: 90%;
+    height: 50%;
+} */
+
+.swiper-wrapper {
+    width: 100%;
+}
+
+.back2 {
+    background: linear-gradient(to bottom, rgba(55, 55, 55, 0.9) 0%, rgba(0, 0, 0, .9) 100%);
+}
+
+.swiper-slide2 {
+    margin-top: 10px;
+    color: aliceblue;
+    text-align: start;
+    padding-top: 20px;
+}
+
+.swiper-slide2 h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.swiper-slide2 p,
+.swiper-slide2 hr{
+    margin-bottom: 30px;
+}
+
+.swiper-slide2 a{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* -----------last slider----------------------- */
+
+.sub-bnr2 {
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 100%), 
+    url("assets/images/mtn/play/slider/2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-wrapper3 {
+    width: 50%;
+}
+
+.swiper-slide3{
+    width: 25rem;
+    height: 15rem;
+}
+
+.swiper-slide3 p{
+    margin: auto 20px;
+    opacity: 1;
+}
+
+/* --------------------personal--------------------------- */
+
+      
+      .line {
+        position: absolute;
+        display: block;
+        width: 17px;
+        height: 3px;
+        background: #000;
+        transition: transform 0.5s ease-out;
+                    
+      
+      
+      }
+      .l1 {
+        transform: translateY(-6px);
+      }
+      
+      
+      
+      .nav-toggler.active .l1 {
+        transform: translateY(0px) rotate(135deg);
+      }
+      
+      
+      .nav-toggler.active .l2 {
+        transform: translateY(0px) rotate(-135deg);
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
